@@ -11,9 +11,9 @@ if [ -z "$release" ]; then
     release="minor";
 fi
 
-# Default release branch is master 
+# Default release branch is main 
 if [ -z "$branch" ] ; then
-    branch="master"; 
+    branch="main"; 
 fi;
 
 
